@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS assignments;
+
+CREATE TABLE assignments (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    duedate TIMESTAMP,
+    name TEXT NOT NULL
+);
